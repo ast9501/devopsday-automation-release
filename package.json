@@ -1,0 +1,25 @@
+{
+  "name": "devopsday-automation-release",
+  "version": "0.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ast9501/devopsday-automation-release.git"
+  },
+  "author": "Alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ast9501/devopsday-automation-release/issues"
+  },
+  "homepage": "https://github.com/ast9501/devopsday-automation-release#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.0"
+  }
+}
